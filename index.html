@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>KFC.pk</title>
+  </head>
+  <body class="bg-slate-200 box-border min-w-fit">
+    <div
+      class="navbar flex justify-between fixed bg-white w-full h-24 shadow-md z-30"
+    >
+      <div class="flex w-30 h-10 mt-3 ml-12 justify-between relative">
+        <input class="w-7 h-7 z-40 absolute ml-3 mt-2 cursor-pointer peer opacity-0" id="menu-toggle"  type="checkbox">
+        <img class="w-12 h-12 relative" src="Image/menu.png" alt="">
+        <img class="absolute w-7 mt-3 opacity-0 z-30 transition-all duration-300 peer-checked:opacity-100" src="Image/cross.png" alt="">
+        <div class="menu-items min-h-dvh w-72 -ml-50 mr-14 z-10 pt-20 pl-5 bg-black text-white flex flex-col fixed top-0 left-0 h-full shadow-lg transform -translate-x-full
+           transition-transform duration-300 ease-in-out peer-checked:translate-x-0">
+          <ul class="mt-10 flex flex-col justify-between h-40">
+            <hr class="w-60">
+
+            <li class="flex transition-transform duration-300 ease-in-out hover:scale-x-110">
+              <img class="w-6 mr-4 cursor-pointer" src="Image/placeholder.png" alt=""><a href="#showcase">Store Locator</a></li>
+            <li class="flex transition-transform duration-300 ease-in-out hover:scale-x-110">
+              <img class="w-8 mr-2 cursor-pointer" src="Image/search.png" alt="">
+              <a href="#about">Track order</a></li>
+            <li class="flex transition-transform duration-300 ease-in-out hover:scale-x-110">
+              <img class="w-7 mr-2 cursor-pointer" src="Image/items.png" alt="">
+              <a href="#food">Explore Menu</a></li>
+            <hr class="w-60">
+          </ul>
+          <ul class="mt-10 flex flex-col justify-between h-80">
+            <li class="flex transition-transform duration-300 ease-in-out hover:scale-x-110">
+              <img class="w-5 mr-3 ml-2 cursor-pointer" src="Image/support.png" alt="">
+              <a href="#food-menu">About Us</a></li>
+            <li class="flex transition-transform duration-300 ease-in-out hover:scale-x-110">
+              <img  class="w-5 mr-3 ml-2 cursor-pointer"src="Image/terms-and-conditions.png" alt="">
+              <a href="#testimonials">Terms & Conditions</a></li>
+            <li class="flex transition-transform duration-300 ease-in-out hover:scale-x-110">
+              <img class="w-6 mr-2 ml-1" src="Image/locked.png" alt="">
+              <a href="#contact">Privacy Policy</a></li>
+            <li class="flex transition-transform duration-300 ease-in-out hover:scale-x-110">
+              <img class="w-5 mr-3 ml-1 cursor-pointer" src="Image/call.png" alt="">
+              <a href="#contact">Contact Us</a></li>
+            <li class="flex transition-transform duration-300 ease-in-out hover:scale-x-110">
+              <img class="w-5 mr-3 cursor-pointer" src="Image/chicken.png" alt="">
+              <a href="#contact">Mithao Bhook</a></li>
+            <li class="flex transition-transform duration-300 ease-in-out hover:scale-x-110">
+              <img class="w-7 mr-1" src="Image/scholarship.png" alt="">
+              <a href="#contact">Mithao Bhook-Scholarship</a></li>
+            <li class="flex transition-transform duration-300 ease-in-out hover:scale-x-110">
+              <img class="w-7 mr-2" src="Image/goal.png" alt="">
+              <a href="#contact">Careers</a></li>
+          </ul>
+          </div>
+
+        </ul>
+        <img class="mt-1 ml-14 w-20 h-10 fixed z-0" src="Image/kfc.png" alt="" />
+      </div>
+      <input
+        class="border rounded w-20 h-10 mt-4 mr-8 bg-red-600 text-white font-medium cursor-pointer hover:shadow-[0_2px_8px_rgba(255,0,0,0.3)]
+        transition-colors duration-300 ease-in-out hover:bg-white hover:text-red-600 hover:border-2 hover:border-red-600"
+        type="button"
+        value="LOGIN"
+      />
+    </div>
+    <!-------------------------------------------------------------------------------------------------------------------------->
+
+    <div id="main"class="container flex justify-between flex-col items-center max-w-full mb-5">
+      <img
+        class="mt-24"
+        src="Image/main.jpg"
+        alt=""
+      />
+      <input
+        class="border rounded bg-red-600 text-white font-medium w-2/5 h-8 mt-3 cursor-pointer hover:shadow-[0_2px_8px_rgba(255,0,0,0.3)]
+        transition-colors ease-in-out duration-300 hover:bg-white hover:text-red-600 hover:border-2 hover:border-red-600"
+        type="button"
+        value="REORDER"
+      />
+    </div>
+
+    <!-------------------------------------------------------------EXPLORE MENU------------------------------------------------------------------>
+
+    <div class="container2">
+      <div class="flex justify-between">
+        <div class="h-16 flex flex-col">
+          <h1 class="font-bold text-2xl tracking-tighter ml-6">EXPLORE MENU</h1>
+          <span class="w-16 h-1 ml-6 bg-red-600 rounded"></span>
+        </div>
+        <div class="flex flex-col">
+          <h3 class="font-bold text-l tracking-tighter">VIEW ALL</h3>
+          <span class="w-16 h-0.5 mr-6 bg-red-600 rounded"></span>
+        </div>
+      </div>
+      <div class="Image flex justify-around w-auto ">
+        <!-- ------------------------------------------------11111111---------------------------------------------------------------------------- -->
+        <div class="group w-56 flex flex-col-reverse bg-slate-100 border-0 rounded-tl-full rounded-tr-full rounded-bl-full 
+        transition-all delay-100 duration-300 ease-in-out hover:-translate-y-3 hover:scale-110 shadow-md ">
+
+          <div class="flex w-40 self-end justify-between">
+            <span class=" w-2 h-1 bg-red-600 rounded ml-3 transition-all duration-300 ease-in-out group-hover:w-20"></span>
+            <span class="w-4 h-4  rounded-full bg-slate-300 mr-2 mb-2 transition-colors duration-300 ease-in-out group-hover:bg-red-600"></span>
+          </div>
+          <p class="font-bold ml-2 self-center mb-3 text-lg">Promotion</p>
+          <img class="mt-10 w-44 self-center" src="Image/Explorer menu 1.png" alt="" />
+       
+        </div>
+        <!-- -------------------------------------------------222222----------------------------------------------------------------------- -->
+            <div class="group w-56 flex md: flex-col-reverse bg-slate-100 border-0 rounded-tl-full rounded-tr-full rounded-bl-full  
+            transition delay-100 duration-300 ease-in-out hover:-translate-y-3 hover:scale-110 shadow-md">
+            <div class="flex w-40 self-end justify-between">
+              <span class="w-2 h-1 bg-red-600 rounded transition-all duration-300 ease group-hover:w-24"></span>
+              <span class="w-4 h-4 rounded-full bg-slate-300  mr-2 mb-2 transition-colors duration-300 ease-in-out group-hover:bg-red-600"></span>
+            </div>
+              <p class="font-bold text-sm mb-3 md:text-lg self-center">Everyday value</p>
+              <img class="w-2/3 h-2/3 self-center" src="Image/Explorer menu 2.png" alt="" />
+            </div>
+            <!-- --------------------------------------------33333333---------------------------------------------------------------------------- -->
+            <div class="group hidden w-56 md:flex md:flex-col-reverse bg-slate-100 border-0 rounded-tl-full rounded-tr-full rounded-bl-full  
+            transition delay-100 duration-300 ease-in-out hover:-translate-y-3 hover:scale-110 shadow-md ">
+              <div class="md:flex w-40 self-end md:justify-between ">
+                <span class="w-2 h-1 bg-red-600 rounded transition-all duration-300 ease-in-out group-hover:w-28"></span>
+                <span class=" md:w-4 md:h-4  md:rounded-full md:bg-slate-300 mr-2 mb-2 transition-colors duration-300 ease-in-out group-hover:bg-red-600"></span>
+              </div>
+              <p class="font-bold text-lg mt-2 mb-3 self-center ml-4">Ala-Carte-&-Combos</p>
+              <img class="self-center h-40 w-40" src="Image/Explorer menu 3.png" alt="" />
+            </div>
+            <!-- -------------------------------------------444444444--------------------------------------------------------------------- -->
+             <div class="group hidden lg:flex-col-reverse lg:w-56  lg:bg-slate-100 lg:border-0 lg:rounded-tl-full lg:rounded-tr-full lg:rounded-bl-full 
+            lg:self-center lg:flex shadow-md transition delay-100 duration-300 ease-in-out hover:-translate-y-3 hover:scale-110 " >
+              <div class="md:flex w-40 self-end md:justify-between ">
+                <span class="w-2 h-1 bg-red-600 rounded transition-all duration-300 ease-in-out group-hover:w-28"></span>
+                <span class=" md:w-4 md:h-4  md:rounded-full md:bg-slate-300 mr-2 mb-2 transition-colors duration-300 ease-in-out group-hover:bg-red-600 "></span>
+              </div>
+              <p class="font-bold text-sm md:text-lg md:mt-2 md:mb-3 self-center">Signature-Boxes</p>
+              <img class="w-2/3 h-1/2 self-center md:h-40 md:w-40" src="Image/Explorer menu 4.png" alt="" />
+            </div>
+            <!-- ----------------------------------------------5555555--------------------------------------------------------------- -->
+             <div class="group hidden xl:flex-col-reverse w-56  bg-slate-100 border-0 rounded-tl-full rounded-tr-full rounded-bl-full 
+             xl:flex shadow-md self-center transition delay-100 duration-300 ease-in-out hover:-translate-y-3 hover:scale-110" >
+              <div class="md:flex w-40 self-end md:justify-between ">
+                <span class="w-2 h-1 bg-red-600 rounded transition-all duration-300 ease-in-out group-hover:w-28"></span>
+                <span class=" md:w-4 md:h-4  md:rounded-full md:bg-slate-300 mr-2 mb-2 transition-colors duration-300 ease-in-out group-hover:bg-red-600 "></span>
+              </div>
+              <p class="font-bold text-sm md:text-lg md:mt-2 md:mb-3 self-center">Sharing</p>
+              <img class="w-2/3 h-1/2 self-center md:h-40 md:w-40" src="Image/Explorer menu 5.png" alt="" />
+            </div>
+        
+
+          
+       
+      </div>
+    </div>
+    <!-- ---------------------------------------------------------BEST SELLERS-------------------------------------------------------------------------------- -->
+
+    <div class="container3 flex flex-col ">
+      <div class="h-16 flex flex-col ml-6 mt-10">
+        <span class="font-bold text-2xl tracking-tighter">BEST SELLERS</span>
+        <span class="w-16 h-1 bg-red-600"></span>
+      </div>
+      <div class="flex justify-around">
+        <!-- --------------------------------------------------111111--------------------------------------------------------------------------- -->
+        <div class="group w-60 bg-white shadow-md rounded-lg border transition delay-100 duration-300 ease-in-out hover:translate-x-3 hover:scale-105">
+          <div class="flex justify-between pl-20 pr-20">
+            <span class="bg-red-600 w-4 h-6 border rounded-b -mt-px"></span>
+            <span class="bg-red-600 w-4 h-6 border rounded-b -mt-px"></span>
+            <span class="bg-red-600 w-4 h-6 border rounded-b -mt-px"></span>
+          </div>
+          <div class="flex flex-col mt-1">
+            <p class="self-start font-bold text-2xl tracking-tighter ml-3">
+              Krunch Burger
+            </p>
+            <div class="flex flex-col self-end w-24 h-10 p-1 bg-red-600 rounded-l mt-2 transition-colors duration-300 ease-in-out group-hover:bg-white group-hover:border-2 group-hover:border-r-0 group-hover:border-red-600">
+              <p class="self-end font-extrabold text-2xl tracking-tighter text-white mr-3 transition-colors duration-300 ease-in-out group-hover:text-red-600">
+                310
+              </p>
+              <p class="font-semibold text-sxl tracking-tighter text-white -mt-5 ml-5 transition-colors duration-300 ease-in-out group-hover:text-red-600">
+                Rs
+              </p>
+            </div>
+          </div>
+          <img class="" src="Image/Best seller 1.png" alt="" />
+        </div>
+        <!-------------------------------------------------------222222-----------------------------------------------------------------------------------  -->
+        <div class="group w-60 bg-white shadow-md rounded-lg border transition delay-100 duration-300 ease-in-out hover:translate-x-3 hover:scale-105">
+          <div class="flex justify-between pl-20 pr-20">
+            <span class="bg-red-600 w-4 h-6 border rounded-b -mt-px"></span>
+            <span class="bg-red-600 w-4 h-6 border rounded-b -mt-px"></span>
+            <span class="bg-red-600 w-4 h-6 border rounded-b -mt-px"></span>
+          </div>
+          <div class="flex flex-col mt-1">
+            <p class="self-start font-bold text-2xl tracking-tighter ml-3">
+              Mighty Zinder
+            </p>
+            <div
+              class="flex flex-col self-end w-24 h-10 p-1 bg-red-600 rounded-l mt-2 
+              transition-colors duration-300 ease-in-out group-hover:bg-white group-hover:border-2 group-hover:border-r-0 group-hover:border-red-600"
+            >
+              <p
+                class="self-end font-extrabold text-2xl tracking-tighter text-white mr-3 transition-colors duration-300 ease-in-out group-hover:text-red-600"
+              >
+                770
+              </p>
+              <p
+                class="font-semibold text-sxl tracking-tighter text-white -mt-5 ml-5 transition-colors duration-300 ease-in-out group-hover:text-red-600"
+              >
+                Rs
+              </p>
+            </div>
+          </div>
+          <img class="" src="Image/Best seller 2.png" alt="" />
+        </div>
+        <!-- --------------------------------------------------3333333---------------------------------------------- -->
+         <div class="group w-60 bg-white shadow-md rounded-lg border hidden md:block transition delay-100 duration-300 ease-in-out hover:-translate-y-3 hover:scale-105">
+          <div class="flex justify-between pl-20 pr-20">
+            <span class="bg-red-600 w-4 h-6 border rounded-b -mt-px"></span>
+            <span class="bg-red-600 w-4 h-6 border rounded-b -mt-px"></span>
+            <span class="bg-red-600 w-4 h-6 border rounded-b -mt-px"></span>
+          </div>
+          <div class="flex flex-col mt-1">
+            <p class="self-start font-bold text-2xl tracking-tighter ml-3">
+              Chicken & Chips
+            </p>
+            <div class="flex flex-col self-end w-24 h-10 p-1 bg-red-600 rounded-l mt-2
+            transition-colors duration-300 ease-in-out group-hover:bg-white group-hover:border-2 group-hover:border-r-0 group-hover:border-red-600">
+              <p class="self-end font-extrabold text-2xl tracking-tighter text-white mr-3 transition-colors duration-300 ease-in-out group-hover:text-red-600">
+              620
+              </p>
+              <p class="font-semibold text-sxl tracking-tighter text-white -mt-5 ml-5 transition-colors duration-300 ease-in-out group-hover:text-red-600">
+              Rs
+              </p>
+            </div>
+          </div>
+          <img class="" src="Image/Best seller 3.png" alt="" />
+        </div>
+        <!-- -----------------------------------------------------4444444----------------------------------------- -->
+         <div class="group w-60 bg-white shadow-md rounded-lg border hidden lg:block transition delay-100 duration-300 ease-in-out hover:-translate-x-3 hover:scale-105">
+          <div class="flex justify-between pl-20 pr-20">
+            <span class="bg-red-600 w-4 h-6 border rounded-b -mt-px"></span>
+            <span class="bg-red-600 w-4 h-6 border rounded-b -mt-px"></span>
+            <span class="bg-red-600 w-4 h-6 border rounded-b -mt-px"></span>
+          </div>
+          <div class="flex flex-col mt-1">
+            <p class="self-start font-bold text-2xl tracking-tighter ml-3">
+              Hot Wings Bucket
+            </p>
+            <div class="flex flex-col self-end w-24 h-10 p-1 bg-red-600 rounded-l mt-2
+            transition-colors duration-300 ease-in-out group-hover:bg-white group-hover:border-2 group-hover:border-r-0 group-hover:border-red-600">
+              <p class="self-end font-extrabold text-2xl tracking-tighter text-white mr-3 transition-colors duration-300 ease-in-out group-hover:text-red-600">
+              670
+              </p>
+              <p class="font-semibold text-sxl tracking-tighter text-white -mt-5 ml-5 transition-colors duration-300 ease-in-out group-hover:text-red-600">
+              Rs
+              </p>
+            </div>
+          </div>
+          <img class="" src="Image/Best seller 4.png" alt="" />
+        </div>
+        <!-- ---------------------------------------------------5555555--------------------------------------------------------------------- -->
+         <div class="group w-60 bg-white shadow-md rounded-lg border hidden xl:block transition delay-100 duration-300 ease-in-out hover:-translate-x-3 hover:scale-105">
+          <div class="flex justify-between pl-20 pr-20">
+            <span class="bg-red-600 w-4 h-6 border rounded-b -mt-px"></span>
+            <span class="bg-red-600 w-4 h-6 border rounded-b -mt-px"></span>
+            <span class="bg-red-600 w-4 h-6 border rounded-b -mt-px"></span>
+          </div>
+          <div class="flex flex-col mt-1">
+            <p class="self-start font-bold text-2xl tracking-tighter ml-3">
+              Hot Wings Bucket
+            </p>
+            <div class="flex flex-col self-end w-24 h-10 p-1 bg-red-600 rounded-l mt-2
+            transition-colors duration-300 ease-in-out group-hover:bg-white group-hover:border-2 group-hover:border-r-0 group-hover:border-red-600">
+              <p class="self-end font-extrabold text-2xl tracking-tighter text-white mr-3 transition-colors duration-300 ease-in-out group-hover:text-red-600">
+              590
+              </p>
+              <p class="font-semibold text-sxl tracking-tighter text-white -mt-5 ml-5 transition-colors duration-300 ease-in-out group-hover:text-red-600">
+              Rs
+              </p>
+            </div>
+          </div>
+          <img class="" src="Image/Best seller 5.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- -----------------------------------------------------TOP DEALS-------------------------------------------------------------------------- -->
+
+    <div class="container3 flex flex-col">
+      <div class="h-16 flex flex-col ml-8 mt-10">
+        <span class="font-bold text-2xl tracking-tighter">TOP DEALS</span>
+        <span class="w-16 h-1 bg-red-600"></span>
+      </div>
+      <div class="flex justify-around">
+        <!-- -----------------------------------------------11111---------------------------------------------------------------------- -->
+        <div class="group flex flex-col">
+          <div class="w-60 bg-white shadow-md rounded-lg border">
+            <div class="flex justify-around">
+              <div class="flex justify-between pl-16 w-32">
+                <span class="bg-red-600 w-4 h-6 rounded-b -mt-px"></span>
+                <span class="bg-red-600 w-4 h-6 rounded-b -mt-px"></span>
+                <span class="bg-red-600 w-4 h-6 rounded-b -mt-px"></span>
+              </div>
+              <img class="w-6 h-6 mt-5 transition-transform duration-300 ease-in-out group-hover:scale-150" src="Image/like.png" alt="" />
+            </div>
+            <img class="-ml-4 transition-transform duration-300 ease-in-out group-hover:scale-110" src="Image/Top Deals 1.png" alt="" />
+            <div class="flex flex-col mt-1">
+              <p class="self-start font-bold text-xl tracking-tighter ml-2">
+                Value Bucket
+              </p>
+              <p class="ml-2 mt-2">
+                Enjoy 9 pcs of our Signature Crispy Fried Chicken. Rs. 50 ...
+              </p>
+              <div class="w-24 h-10 p-1 mt-3 mb-6">
+                <p
+                  class="ml-2 font-extrabold font-mono text-l tracking-tighter"
+                >
+                  Rs 2050
+                </p>
+              </div>
+            </div>
+          </div>
+          <input class="self-center bg-red-600 rounded w-36 h-9 -mt-5 font-medium text-white cursor-pointer hover:shadow-[0_2px_8px_rgba(255,0,0,0.3)]
+          transition-colors duration-500 ease-in-out hover:bg-white hover:text-red-600 hover:border-2 hover:border-red-600" 
+          type="button" value="+ ADD TO BUCKET">
+        </div>
+        <!------------------------------------------------------------------------------------------------------------------------------------------------  -->
+        <div class="group flex flex-col z-0 relative">
+          <div class="w-60 bg-white shadow-md rounded-lg border">
+            <div class="flex justify-around">
+              <div class="flex justify-between pl-16 w-32">
+                <span class="bg-red-600 w-4 h-6 rounded-b -mt-px"></span>
+                <span class="bg-red-600 w-4 h-6 rounded-b -mt-px"></span>
+                <span class="bg-red-600 w-4 h-6 rounded-b -mt-px"></span>
+              </div>
+              <img class="w-6 h-6 mt-5 transition-transform duration-300 ease-in-out group-hover:scale-150" src="Image/like.png" alt="" />
+            </div>
+            <img class="transition-transform duration-300 ease-in-out group-hover:scale-110" src="Image/Top Deals 2.png" alt="" />
+            <div class="flex flex-col mt-1">
+              <p class="self-start font-bold text-xl tracking-tighter ml-2">
+                Family Festival 3
+              </p>
+              <p class="ml-2 mt-2">
+                An ultimate meal for the fam. It includes 4 Zinger burgers + 4
+                ...
+              </p>
+              <div class="w-24 h-10 p-1 mt-3 mb-6">
+                <p
+                  class="ml-2 font-extrabold font-mono text-l tracking-tighter"
+                >
+                  Rs 2790
+                </p>
+              </div>
+            </div>
+          </div>
+          <input class="self-center bg-red-600 rounded w-36 h-9 -mt-5 font-medium text-white cursor-pointer hover:shadow-[0_2px_8px_rgba(255,0,0,0.3)]
+          transition-colors duration-500 ease-in-out hover:bg-white hover:border-2 hover:border-red-600 hover:text-red-600" 
+          type="button" value="+ ADD TO BUCKET">
+        </div>
+        <!-- ------------------------------------------------------------------------------------------------------------------------- -->
+         <div class="group hidden md:flex md:flex-col">
+          <div class="w-60 bg-white shadow-md rounded-lg border">
+            <div class="flex justify-around">
+              <div class="flex justify-between pl-16 w-32">
+                <span class="bg-red-600 w-4 h-6 rounded-b -mt-px"></span>
+                <span class="bg-red-600 w-4 h-6 rounded-b -mt-px"></span>
+                <span class="bg-red-600 w-4 h-6 rounded-b -mt-px"></span>
+              </div>
+              <img class="w-6 h-6 mt-5 transition-transform duration-300 ease-in-out group-hover:scale-150" src="Image/like.png" alt="" />
+            </div>
+            <img class="transition-transform duration-300 ease-in-out group-hover:scale-110" src="Image/Top Deals 3.png" alt="" />
+            <div class="flex flex-col mt-1">
+              <p class="self-start font-bold text-xl tracking-tighter ml-2">
+                Xtreme Duo Box
+              </p>
+              <p class="ml-2 mt-2">
+                Enjoy 9 pcs of our Signature Crispy Fried Chicken. Rs. 50 ...
+              </p>
+              <div class="w-24 h-10 p-1 mt-3 mb-6">
+                <p
+                  class="ml-2 font-extrabold font-mono text-l tracking-tighter"
+                >
+                  Rs 1630
+                </p>
+              </div>
+            </div>
+          </div>
+          <input class="self-center bg-red-600 rounded w-36 h-9 -mt-5 font-medium text-white cursor-pointer hover:shadow-[0_2px_8px_rgba(255,0,0,0.3)] 
+          transition-colors duration-300 ease-in-out hover:bg-white hover:border-2 hover:border-red-600 hover:text-red-600" 
+          type="button" value="+ ADD TO BUCKET">
+        </div>
+        <!-- ----------------------------------------------------------------------------------------------------------- -->
+         <div class="group hidden lg:flex lg:flex-col">
+          <div class="w-60 bg-white shadow-md rounded-lg border">
+            <div class="flex justify-around">
+              <div class="flex justify-between pl-16 w-32">
+                <span class="bg-red-600 w-4 h-6 rounded-b -mt-px"></span>
+                <span class="bg-red-600 w-4 h-6 rounded-b -mt-px"></span>
+                <span class="bg-red-600 w-4 h-6 rounded-b -mt-px"></span>
+              </div>
+              <img class="w-6 h-6 mt-5 transition-transform duration-300 ease-in-out group-hover:scale-150" src="Image/like.png" alt="" />
+            </div>
+            <img class="transition-transform duration-300 ease-in-out group-hover:scale-110" src="Image/Top Deals 4.png" alt="" />
+            <div class="flex flex-col mt-1">
+              <p class="self-start font-bold text-xl tracking-tighter ml-2">
+                Crispy Duo Box
+              </p>
+              <p class="ml-2 mt-2">
+                Enjoy 9 pcs of our Signature Crispy Fried Chicken. Rs. 50 ...
+              </p>
+              <div class="w-24 h-10 p-1 mt-3 mb-6">
+                <p
+                  class="ml-2 font-extrabold font-mono text-l tracking-tighter"
+                >
+                  Rs 1350
+                </p>
+              </div>
+            </div>
+          </div>
+          <input class="self-center bg-red-600 rounded w-36 h-9 -mt-5 font-medium text-white cursor-pointer hover:shadow-[0_2px_8px_rgba(255,0,0,0.3)]
+          transition-colors duration-300 ease-in-out hover:bg-white hover:border-2 hover:border-red-600 hover:text-red-600" 
+          type="button" value="+ ADD TO BUCKET">
+        </div>
+      </div>
+    </div>
+    <!-- -----------------------------------------------------------big Images---------------------------------------------------------------------------------------- -->
+  <div class="md:flex-col md:justify-around block">
+    <div class="flex flex-col justify-between mt-16 w-full md:flex-row mr-10  ">
+      <div class="flex flex-col md:flex md:flex-row md:ml-10 md:my-0 md:w-full md:justify-around md:mb-0">
+        <img class="rounded-2xl mx-16 mb-5 shadow-md md:w-5/12 md:h-5/12 md:mx-0" src="Image/1.jpg" alt="" />
+        <img class="rounded-2xl mx-16 mb-5 shadow-md md:w-5/12 md:h-5/12" src="Image/2.jpg" alt="" />
+      </div>
+    </div>
+    <div class="flex flex-col md:flex md:flex-row md:w-full md:justify-around">
+      <img class="rounded-2xl mx-16 mb-8 shadow-md md:w-2/5 md:h-5/12 md:mx-0" src="Image/3.png" alt="" />
+      <div class=" mx-16 h-72  bg-white shadow rounded-2xl flex flex-col self- md:mx-0 -mt-3 md:w-2/5 md:h-4/5 md:mt-2 md:mr-8 lg:h-72 xl:h-80">
+        <img class="w-44 h-24 mb-2 self-center md:w-5/12 md:h-5/12" src="Image/4.jpg" alt="">
+        <p class="text-center mb-5 mx-3">Adding 11 herbs and spices, Explore our menu and add items to your cart.</p>
+        <input class="text-white font-medium text-center bg-red-600 w-44 self-center rounded-md hover:shadow-[0_4px_10px_rgba(255,0,0,0.5)]
+        transition-colors duration-300 ease-in-out hover:bg-white hover:text-red-600 hover:border-2 hover:border-red-600 cursor-pointer" type="button" value="EXPLORE MENU">
+      </div>
+    </div>
+  </div>
+    <!-------------------------------------------------------------footer------------------------------------------------------------------------------------------  -->
+    <div class="flex justify-around mt-16">
+      <a href="#main" target="_blank"><img src="Image/Kfc.png"  class="ml-28"></a>
+      <div class="flex justify-between w-40 mr-28">
+        <a href="https://youtube.com" target="_blank"><img src="Image/youtube.png" alt="" class="w-10"></a>
+        <a href="https://facebook.com" target="_blank"><img src="Image/facebook.png" alt="" class="w-10"></a>
+        <a href="https://instagram.com" target="_blank"><img src="Image/instagram.png" alt="" class="w-10"></a>
+      </div>
+    </div>
+    <div class="flex flex-col justify-around pl-20 mt-8 h-full min-w-fit flex-wrap md:h-40 lg:h-24 ml-24">
+      <a class="font-md text-xl tracking-tighter hover:underline w-20" href="#">About Us</a>
+      <a class="font-md text-xl tracking-tighter hover:underline w-32" href="#">Mithao Bhook</a>
+      <a class="font-md text-xl tracking-tighter hover:underline w-52" href="#">Mithao Book Scholarship</a>
+      <a class="font-md text-xl tracking-tighter hover:underline w-28" href="#">Privacy Policy</a>
+      <a class="font-md text-xl tracking-tighter hover:underline w-16" href="#">Careers</a>
+      <a class="font-md text-xl tracking-tighter hover:underline w-24" href="#">Contact Us</a>
+      <a class="font-md text-xl tracking-tighter hover:underline w-28" href="#">Store locator</a>
+      <a class="font-md text-xl tracking-tighter hover:underline w-24" href="#">Track Order</a>
+      <a class="font-md text-xl tracking-tighter hover:underline w-40" href="#">Terms & Conditions</a>
+    </div>
+    <div class="flex m-5 justify-around">
+      <a href="https://play.google.com/store/games?hl=en" target="_blank"><img src="Image/google play.png" alt="" class="w-32"></a>
+      <a href="https://www.apple.com/app-store/" target="_blank"><img src="Image/App store.png" alt="" class="w-32"></a>
+    </div>
+    <div class="flex justify-around my-10">
+      <p class="text-xl tracking-tight self-end">2025 KFC. All rights reserved</p>
+      <div class="flex flex-col">
+        <p class="text-red-600 font-extrabold text-xl tracking-tight">Powered by</p>
+        <a class="text-xl" href="#">Practical coding</a>
+        <span class="bg-black w-36 h-0.5"></span>
+      </div>
+    </div>
+    
+    <!-- >>>>>>>>>>>>>>>>>>>>>>>>> Javascript for smooth scrolling<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+        $(document).ready(function(){
+          // Add smooth scrolling to all links
+          $("a").on('click', function(event) {
+        
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+              // Prevent default anchor click behavior
+              event.preventDefault();
+        
+              // Store hash
+              var hash = this.hash;
+        
+              // Using jQuery's animate() method to add smooth page scroll
+              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+              }, 800, function(){
+        
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              });
+            } // End if
+          });
+        });
+        </script>
+
+  </body>
+</html>
