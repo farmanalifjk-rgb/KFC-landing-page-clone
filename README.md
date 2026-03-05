@@ -6,7 +6,7 @@ A responsive **KFC.pk landing page clone** built with **HTML + Tailwind CSS** an
 Includes an interactive **mobile sidebar menu**, animated hover effects, and smooth in-page navigation.
 
 <!-- Replace the demo link below with your actual URL if deployed -->
-🌐 **Live Demo:** https://your-project.vercel.app  
+🌐 **Live Demo:** https://kfc-landing-page-clone-dywp.vercel.app/  
 🐛 **Report Bug:** ../../issues · ✨ **Request Feature:** ../../issues
 
 <img src="Image/Screenshot 2026-03-05 183227.png" alt="Landing Page Preview" width="100%" />
